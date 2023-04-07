@@ -1,0 +1,11 @@
+[
+    {
+        "type": "join",
+        "_id": 1
+    },
+    {
+        "type": "send-to-user",
+        "_id": 1,
+        "message": "Hello, world!"
+    }
+]
