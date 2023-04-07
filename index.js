@@ -16,7 +16,8 @@ const server = http.createServer(app);
 const PORT = process.env.PORT || 4000;
 const allowedOrigins = [
     "http://localhost:3000",
-    "http://192.168.1.4:3000"
+    "http://192.168.1.4:3000",
+    "https://video-calling-roan.vercel.app"
 ];
 
 // middlewares 
