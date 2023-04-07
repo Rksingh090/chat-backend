@@ -22,8 +22,7 @@ const allowedOrigins = [
 
 // middlewares 
 app.use(cors({
-    origin: allowedOrigins,
-    credentials: true
+    origin: "*"
 }))
 app.use(express.json());
 app.use(express.static(__dirname + "/public"));
